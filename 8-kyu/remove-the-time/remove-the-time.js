@@ -1,6 +1,4 @@
 function shortenToDate(longDate) {
-  return longDate.split(',')[0];
+  [date, time] = longDate.split(',')
+  return date
 }
-​
-​
-​
