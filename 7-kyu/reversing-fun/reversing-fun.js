@@ -3,9 +3,9 @@ function flipNumber(s) {
   let result = [];
   
   while (arr.length > 0) {
-    result.push(arr.pop()); 
+    result.push(arr.pop());
     if (arr.length > 0) {
-      result.push(arr.shift()); 
+      result.push(arr.shift());
     }
   }
   
